@@ -6,6 +6,8 @@ ARG STEAMCMD_URL=https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux
 ARG LANG=C.UTF-8
 ARG LC_ALL=C.UTF-8
 
+ADD sources.list /etc/apt/
+
 # install packages
 RUN dpkg --add-architecture i386 \
     && apt-get update -y \
