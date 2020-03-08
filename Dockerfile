@@ -2,7 +2,7 @@ FROM debian:buster-slim
 LABEL maintainer="James Swineson <docker@public.swineson.me>"
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG STEAMCMD_URL=https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
+ARG STEAMCMD_URL=https://cdn.steamstatic.com/client/installer/steamcmd_linux.tar.gz
 ARG LANG=C.UTF-8
 ARG LC_ALL=C.UTF-8
 
