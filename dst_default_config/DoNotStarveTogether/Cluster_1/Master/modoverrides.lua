@@ -86,6 +86,7 @@ return {
   },
   ["workshop-1185229307"]={ ["configuration_options"]={  }, ["enabled"]=true },
   ["workshop-1296663404"]={ ["configuration_options"]={ ["CAOSHULIANG"]=6 }, ["enabled"]=true },
+  ["workshop-1301033176"]={ ["configuration_options"]={ ["LANG"]="simplified" }, ["enabled"]=true },
   ["workshop-1311366056"]={ ["configuration_options"]={  }, ["enabled"]=true },
   ["workshop-1349799880"]={
     ["configuration_options"]={
@@ -114,6 +115,7 @@ return {
       ["Volcano"]=true,
       ["Waves"]=true,
       ["anthill"]=1,
+      ["aporkalypse"]=true,
       ["ballphinhouse"]=10,
       ["boatlefthud"]=0,
       ["city_tab"]=0,
